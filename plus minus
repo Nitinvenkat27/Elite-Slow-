@@ -1,0 +1,16 @@
+public static void plusMinus(List<Integer> arr) {
+    // Write your code here
+    int pos=0,neg=0,zer=0;
+    for(int i:arr)
+    {
+        if(i>0) pos++;
+        else if(i<0)    neg++;
+        else    zer++;
+    }
+    float k=arr.size();
+    System.out.println(pos/k);
+    System.out.println(neg/k);
+    System.out.println(zer/k);
+    }
+
+}
